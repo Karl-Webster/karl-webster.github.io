@@ -21,10 +21,11 @@ url: 'https://karl-webster.github.io'
 
 author: Karl Webster                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+  # avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: https://media-exp1.licdn.com/dms/image/C5603AQEtmeazBBIp3w/profile-displayphoto-shrink_200_200/0/1574957016795?e=1614211200&v=beta&t=0CFinSIxmNXHUsZ7a45sNx6jnVzRGWrMkJb_JfqgqX8   # support internet resources
 
 github:
-  username: github_username             # change to your github username
+  username: karl-webster             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
