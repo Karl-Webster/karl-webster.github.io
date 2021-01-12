@@ -21,22 +21,22 @@ url: 'https://karl-webster.github.io'
 
 author: Karl Webster                  # change to your full name
 
-  # avatar: /assets/img/sample/avatar.jpg   # support internet resources
-avatar: https://media-exp1.licdn.com/dms/image/C5603AQEtmeazBBIp3w/profile-displayphoto-shrink_200_200/0/1574957016795?e=1614211200&v=beta&t=0CFinSIxmNXHUsZ7a45sNx6jnVzRGWrMkJb_JfqgqX8   # support internet resources
-
+  #avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/me.jpg
 github:
+
   username: karl-webster             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: K_T_W_717            # change to your twitter username
 
 social:
   name: Karl Webster                  # it will shows as the copyright owner in Footer
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/K_T_W_717      # change to your twitter homepage
+    - https://github.com/karl-webster       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
