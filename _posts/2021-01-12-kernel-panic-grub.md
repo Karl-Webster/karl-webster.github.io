@@ -55,20 +55,21 @@ mount /dev/nvme1p1 /mnt/rescue
 ```
 
 * Chroot it
+
 ```bash
 for i in dev proc sys run; do mount -o bind /$i /mnt/rescue/$i; done
-
 chroot /mnt/rescue
 ```
 
 * Run the following
-```
-sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
+```bash
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 sudo dracut -f -vvvvv
 ```
 
 Now exit the chroot
+
 ```bash
 exit
 for i in dev proc sys run; do sudo umount /mnt/rescue/$i; done
@@ -92,14 +93,15 @@ mount /dev/nvme1p1 /mnt/rescue
 ```
 
 * Chroot it
+
 ```bash
 for i in dev proc sys run; do mount -o bind /$i /mnt/rescue/$i; done
-
 chroot /mnt/rescue
 ```
 
 * Run the following
-```
+
+```bash
 sed -i 's/GRUB_DEFAULT=0/GRUB_DEFAULT=saved/g' /etc/default/grub
 
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
@@ -108,10 +110,13 @@ sudo grub2-set-default 1
 ```
 
 Now exit the chroot
+
 ```bash
 exit
 for i in dev proc sys run; do sudo umount /mnt/rescue/$i; done
 ```
+
+* Now re-attach the "broken" volume to the instance and check if it works, if so great!
 
 
 # Other Notes
