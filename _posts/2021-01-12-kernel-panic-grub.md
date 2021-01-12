@@ -2,8 +2,8 @@
 title: vfs unable to mount aws
 author: Karl Webster
 date: 2021-01-07
-categories: [DevOps, Centos]
-tags: [DevOps, Centos]
+categories: [DevOps, Centos, AWS]
+tags: [DevOps, Centos, AWS]
 ---
 
 # The Error
@@ -121,7 +121,7 @@ for i in dev proc sys run; do sudo umount /mnt/rescue/$i; done
 
 # Other Notes
 
-If you are using a different OS please look at the docs
+If you are using a different OS please look at the docs but you will properly need to do part 1 and if that does not work move to part 2 
 
 Part 1: https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-kernel-panic-unable-mount/
 
