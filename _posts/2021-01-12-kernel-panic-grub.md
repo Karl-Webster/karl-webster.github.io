@@ -107,6 +107,10 @@ sed -i 's/GRUB_DEFAULT=0/GRUB_DEFAULT=saved/g' /etc/default/grub
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
 sudo grub2-set-default 1
+
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+
+sudo dracut -f -vvvvv
 ```
 
 Now exit the chroot
